@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+     <title>hola</title>
+     <link rel="sylesheet" type="text/css" herf="esti.css">
+</head>
+<body>
+      <div class="papa">
+          <div class="hijo1"></div>
+          <div class="hijo2"></div>
+          <div class="hijo3"></div>
+      </div>
+</body>
+</html>
