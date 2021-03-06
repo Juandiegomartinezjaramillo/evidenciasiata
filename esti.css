@@ -1,0 +1,155 @@
+.papa{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 1356px;
+	height: 647px;
+	background: cyan;
+	border: solid 5px blue
+}
+.hijo1{
+	position: absolute;
+	top: 10px;
+	left: 500px;
+	width: 300px;
+	height: 25px;
+	background: orange;
+	border: solid 5px purple
+}
+.titulo1{
+	position: absolute;
+	top: 5px;
+	left: 75px;
+	color: white
+}
+.hijo2{
+	position: absolute;
+	top: 150px;
+	left: 100px;
+	width: 500px;
+	height: 390px;
+	background: tan;
+	border: solid 5px orange;
+}
+.arri{
+	position: absolute;
+	top: 10px;
+	left: 80px;
+	width: 300px;
+	height: 25px;
+	background: green;
+	border: solid 5px white
+}
+.titulo2{
+	position: absolute;
+	top: 3px;
+	left: 45px;
+	color: yellow
+}
+.arri2{
+	position: absolute;
+	top: 60px;
+	left: 5px;
+	width: 480px;
+	height: 100px;
+	background: green;
+	border: solid 5px white
+}
+.parrafo1{
+	position: absolute;
+	top: 10px;
+	left: 5px;
+	color: white
+}
+.arri3{
+	position: absolute;
+	top: 130px;
+	left: 140px;
+	width: 170px;
+	height: 170px;
+	background: green;
+	border: solid 5px blue
+}
+.foto2{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 170px;
+	height: 170px;
+	background: url("dino1.png")
+}
+.hijo3{
+	position: absolute;
+	top: 150px;
+	left: 750px;
+	width: 500px;
+	height: 390px;
+	background: tan;
+	border: solid 5px orange;
+}
+.arri4{
+	position: absolute;
+	top: 9px;
+	left: 120px;
+	width: 250px;
+	height: 25px;
+	background: green;
+	border: solid 5px white
+}
+.titulo3{
+	position: absolute;
+	top: 4px;
+	left: 30px;
+	color: yellow
+}
+.arri5{
+	position: absolute;
+	top: 60px;
+	left: 5px;
+	width: 480px;
+	height: 100px;
+	background: green;
+	border: solid 5px white
+}
+.parrafo2{
+	position: absolute;
+	top: 10px;
+	left: 5px;
+	color: white
+}
+.arri6{
+	position: absolute;
+	top: 190px;
+	left: 30px;
+	width: 170px;
+	height: 170px;
+	background: green;
+	border: solid 5px blue
+}
+.foto3{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 170px;
+	height: 170px;
+	background: url("dino2.png")
+	
+}
+.arri7{
+	position: absolute;
+	top: 190px;
+	left: 300px;
+	width: 170px;
+	height: 170px;
+	background: green;
+	border: solid 5px blue
+}
+.foto4{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 170px;
+	height: 170px;
+	background: url("dino3.png")
+	
+}
