@@ -1,0 +1,36 @@
+.papa{
+	position: absolute;
+	top: 20px;
+	left: 30px;
+	width: 1300px;
+	height: 600px;
+	animation-name: contenedor;
+	animation-duration: 10s;
+	animation-iteration-count: infinite;
+	border: green solid 5px;
+}
+.hijo{
+	position: absolute;
+	top: 50px;
+	left: 100px;
+	width: 1000px;
+	height: 500px;
+	background: rgba(1,1,1,0);
+	color: red;
+	font-size: 23px;
+	animation-name: palabras;
+	animation-duration: 10s;
+	animation-iteration-count: infinite;	
+}
+@keyframes contenedor{
+	0%{background:url(afan1.png);background-size:cover;}
+	25%{background:url(afan2.png);background-size:cover;}
+	50%{background:url(afan3.png);background-size:cover;}
+	75%{background:url(afan4.png);background-size:cover;}
+	100%{background:url(afan1.png);background-size:cover;}
+}
+@keyframes palabras{
+	25%{left: 80px; top: 500px; color: blue;}
+	50%{left: 630px; top: 50px; color: green;}   
+	75%{left: 630px; top: 500px; color: red;}
+	100%{left: 80px; top: 50px; color: purple;}
