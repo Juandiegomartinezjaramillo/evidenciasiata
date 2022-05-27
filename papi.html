@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>EVIDENCIAS SIATA</title>
+    <style>
+      .foto{
+      	position: absolute;
+      	top: 0px;
+      	left: 7px;
+      	background: none;
+      	height: 570px;
+      	width: 1350px;
+      	box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.64);
+				margin-top: 26px;
+      }
+      .iz{
+      	position: absolute;
+      	top: 300px;
+      	left: 30px;
+      	height: 60px;
+      	width: 60px;
+      	background: url("atras.png");
+      	opacity: 70%;
+		border-radius:  50%;
+      }
+      .de{
+      	position: absolute;
+      	top: 300px;
+      	left: 1270px;
+      	height: 60px;
+      	width: 60px;
+      	background: url("adelante.png");
+      	opacity: 70%;
+		border-radius:  50%;
+      }
+      .pu{
+      	position: absolute;
+      	top: 530px;
+      	left: 570px;
+      	height: 60px;
+      	width: 200px;
+      	background: none;
+      	
+      }
+    </style>
+</head>
+<body>
+   <div class="foto" id="fondo"> <img src="1.png" height="570px" width="1350px" >
+      	</div>
+   <div class="iz" onclick="izq()"></div>
+   <div class="de" onclick="der()"></div>
+   <div class="pu" id="pun"><img src="con1.png"></div>
+</body>
+<script>
+	dere=0
+	izqu=0
+	
+	function der() {
+		if (dere==0) {
+		fondo.innerHTML="<img src='2.png' height='570px' width='1350px' >"
+		dere++
+	}
+	else{
+		if (dere==1) {
+			fondo.innerHTML="<img src='3.png' height='570px' width='1350px' >"
+		dere++
+		}
+		else{
+			if (dere==2) {
+				fondo.innerHTML="<img src='4.png' height='570px' width='1350px' >"
+		dere++
+			}
+			else{
+				if (dere==3) {
+					fondo.innerHTML="<img src='5.png' height='570px' width='1350px' >"
+		dere++
+				}
+				else{
+					if (dere==4) {
+						fondo.innerHTML="<img src='1.png' height='570px' width='1350px' >"
+		dere=0
+
+					}
+				}
+			}
+		}
+	}
+
+if (dere==0) {
+		pun.innerHTML="<img src='con1.png'>"
+	}
+	else{
+		if (dere==1) {
+		pun.innerHTML="<img src='con2.png'>"
+	}
+	else{
+		if (dere==2) {
+		pun.innerHTML="<img src='con3.png'>"
+	}
+	else{
+		if (dere==3) {
+		pun.innerHTML="<img src='con4.png'>"
+	}
+	else{
+		if (dere==4) {
+		pun.innerHTML="<img src='con5.png'>"
+	}
+	}
+ 	}	
+    }
+	}
+}
+	function izq() {	
+		if (dere==0) {
+		fondo.innerHTML="<img src='5.png' height='570px' width='1350px' >"
+		dere=4
+		
+	}
+	else{
+		if (dere==1) {
+			fondo.innerHTML="<img src='1.png' height='570px' width='1350px' >"
+			dere--
+		}
+		else{
+			if (dere==2) {
+				fondo.innerHTML="<img src='2.png' height='570px' width='1350px' >"
+			dere--
+			}
+			else{
+				if (dere==3) {
+					fondo.innerHTML="<img src='3.png' height='570px' width='1350px' >"
+			dere--
+				}
+				else{
+					if (dere==4) {
+						fondo.innerHTML="<img src='4.png' height='570px' width='1350px' >"
+			dere--
+					}
+				}
+			}
+		}
+	}
+
+	if (dere==0) {
+		pun.innerHTML="<img src='con1.png'>"
+	}
+	else{
+		if (dere==1) {
+		pun.innerHTML="<img src='con2.png'>"
+	}
+	else{
+		if (dere==2) {
+		pun.innerHTML="<img src='con3.png'>"
+	}
+	else{
+		if (dere==3) {
+		pun.innerHTML="<img src='con4.png'>"
+	}
+	else{
+		if (dere==4) {
+		pun.innerHTML="<img src='con5.png'>"
+	}
+	}
+ 	}	
+    }
+	}
+}
+  	
+</script>
+</html>
